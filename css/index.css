@@ -236,6 +236,7 @@ html {
 
 #div2 {
 	padding: 20px;
+
 }
 .div3head {
 	font-size: 10vh;
@@ -243,13 +244,19 @@ html {
 	font-weight: 700;
 	text-align: center;
 }
+
+.second-div {
+	min-height: -webkit-fill-available;
+	min-height: 100vh; /*fallback */
+}
 .third-div {
 	margin-top: 10vh;
-	height: 100vh;
+	min-height: -webkit-fill-available;
+	min-height: 100vh; /*fallback */
 }
 @media only screen and (max-width: 600px) {
 	.third-div {
-		margin-top: 33vh;
+		margin-top: 42vh;
 	}
 }
 
