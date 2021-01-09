@@ -301,7 +301,7 @@ html {
 }
 
 .darkmode-toggle::after {
-	content: "ðŸŒ“";
+	content: "🌓";
 }
 .darkmode-toggle {
 	z-index: 100;
